@@ -1,0 +1,65 @@
+## Basic Configuration
+
+baseurl = "https://shenoybr.github.io/" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Nikolay Antonov"
+title = "Nikolay Antonov"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Nikolay Antonov"
+intro = "Infrastructure engineer"
+description = "I am a systems engineer living in Netherlands. <br/> \"My specialty is hydrid cloud infrastracture and networking.\" <br/> \"My hobbies are traveling, tinkering on hackathons and reading comic books.\""
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "cloud,developer,aws,go,python"
+
+## Social Accounts
+[params.social]
+github = "nikolayantonov"
+linkedin = "nikolayantonov1"
+twitter = "niko_kgm11"
+facebook = "nikolay.antonov.16"
+email = "nikolay.antonov.92@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "" 
+poweredby = true
+hightlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "download CV"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"
